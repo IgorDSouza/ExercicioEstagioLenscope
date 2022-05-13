@@ -1,0 +1,56 @@
+body{
+    background-image: url(img/bgotica.png);
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin-top: 2%;
+    background-color: rgba(206, 132, 68, 0.747);
+    text-align: center;
+    border-radius: 15px;
+    border: 10px rgb(255, 214, 169) solid;
+    font-size:1.8vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    margin: 0px;
+}
+h3{
+    margin: 5px;
+}
+input{
+    text-align: center;
+    font-size: 1.9vw;
+    background-color:rgba(255, 214, 169, 0.884) ;
+}
+#enviar{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 20vw;
+    font-size: 2.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#imgOculos{
+    width: 10%;
+}
+#alert{
+    font-family: 'Josefin Sans', sans-serif;
+    position:fixed;
+    display: block;
+    border: 1px black solid;
+    font-size: 3vw;
+    text-align: center;
+    width: 40%;
+    height: 20%;
+    left: 30%;
+    top: 19%;
+    background-color:rgba(143, 94, 43, 0.884) ;
+    color: white;
+    border-radius: 10px;
+    border: 10px rgb(255, 214, 169) solid;
+    z-index: 1;
+    
+}
+.fechar{
+    border-radius: 10px;
+}
